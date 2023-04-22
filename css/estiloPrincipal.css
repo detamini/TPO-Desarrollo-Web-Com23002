@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+     background-color: rgb(247, 235, 203);
+}
+
+/* estilos contenido  */
+
+body, header, main, footer {
+    /* border: 2px orange solid; */
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+    background-color: rgb(247, 235, 203);
+}
+
+body {
+    background-color:rgb(25, 136, 136);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header, main, footer{
+    background-color:  rgb(240, 238, 232);
+}
+
+main>div {
+    /* border: 2px green solid; */
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+section>img {
+    /* border: 2px yellow solid; */
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+section>h3 {
+    /* border: 2px yellow solid; */
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+section>article {
+    /* border: 2px yellow solid; */
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+/* logo y menu */
+.headerLogo{
+    display: inline-block;
+
+}
+
+.headerLogo a img{
+    width: 10%;
+    /* border: 2px purple solid; */
+}
+.headerNombre {
+    /* border: 2px purple solid; */
+    position: relative;
+    display: inline-block;
+    
+}
+.headerMenu {
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.headerMenu ul {
+    list-style: none;
+   
+}
+
+.headerMenu li {
+    background-color:rgb(25, 136, 136);
+    float: left;
+    text-align: center;
+    
+    /* margin: 0 0.3rem 0; */
+    padding: 0.5rem;
+}
+
+/* card Mascotas */
+.cardMascotas {
+    width: 415px;
+    height: auto;
+    /* border: 1px solid lightgray; */
+    background-color:rgba(25, 136, 136, 0.692);
+    border-radius:15px;
+    display: inline-block;
+}
+
+.cardCuerpo img {
+    width: 90%;
+    height: auto;
+    margin-top: 3px;
+    padding-left: 50px;
+}
+
+.cardTitulo{
+    /* font-size: 24px; */
+    
+    padding: 5px;
+    text-align:center;
+  }
+.cardPie{
+    background-color:rgb(25, 136, 136);
+    border-radius:0 0 15px 15px;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+      }
+
+.seccionBanner img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    /* border: 2px purple solid; */
+}
+
+.seccionBanner h3 {
+    text-align: center;
+}
+
+/* Footer */
+.footerRedes {
+    text-align:center;
+}
+
+.footerRedes img{
+  background-color: rgb(25, 136, 136);  
+}
