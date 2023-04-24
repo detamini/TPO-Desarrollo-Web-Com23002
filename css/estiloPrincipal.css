@@ -6,7 +6,7 @@
 html {
     font-size: 1rem;
     height: 100%;
-     background-color: rgb(247, 235, 203);
+     background-color: rgb(247, 235, 203); 
 }
 
 /* estilos contenido  */
@@ -16,16 +16,16 @@ body, header, main, footer {
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
-    background-color: rgb(247, 235, 203);
+     background-color: rgb(247, 235, 203);
 }
 
 body {
-    background-color:rgb(25, 136, 136);
-    font-family: Helvetica, Arial, sans-serif;
+    /* background-color:rgb(25, 136, 136); */
+    font-family: 'Dancing Script', cursive, Arial, sans-serif;
 }
 
 header, main, footer{
-    background-color:  rgb(240, 238, 232);
+     background-color:  rgb(247, 235, 203); 
 }
 
 main>div {
@@ -55,17 +55,21 @@ section>article {
 /* logo y menu */
 .headerLogo{
     display: inline-block;
+    background-color:#9DC08B;
 
 }
-
+header{
+    background-color:#9DC08B;
+}
 .headerLogo a img{
-    width: 10%;
+    width: 20%;
     /* border: 2px purple solid; */
 }
 .headerNombre {
     /* border: 2px purple solid; */
     position: relative;
     display: inline-block;
+    background-color:#9DC08B;
     
 }
 .headerMenu {
@@ -83,22 +87,24 @@ section>article {
 }
 
 .headerMenu li {
-    background-color:rgb(25, 136, 136);
+    background-color:#9DC08B;
     float: left;
     text-align: center;
-    
+        
     /* margin: 0 0.3rem 0; */
     padding: 0.5rem;
 }
 
 /* card Mascotas */
+
 .cardMascotas {
     width: 415px;
     height: auto;
     /* border: 1px solid lightgray; */
-    background-color:rgba(25, 136, 136, 0.692);
+    background-color:#9DC08B;
     border-radius:15px;
     display: inline-block;
+    margin:40px;
 }
 
 .cardCuerpo img {
@@ -115,17 +121,17 @@ section>article {
     text-align:center;
   }
 .cardPie{
-    background-color:rgb(25, 136, 136);
+    background-color:#609966;
     border-radius:0 0 15px 15px;
     padding: 10px 10px 10px 10px;
     text-align:center;
       }
-
 .seccionBanner img {
     margin: 0;
     width: 100%;
     height: auto;
     /* border: 2px purple solid; */
+    /* background-color: white; */
 }
 
 .seccionBanner h3 {
@@ -133,10 +139,13 @@ section>article {
 }
 
 /* Footer */
+.footer{
+    background-color:#40513B;
+}
 .footerRedes {
     text-align:center;
 }
 
-.footerRedes img{
+/* .footerRedes img{
   background-color: rgb(25, 136, 136);  
-}
+} */
