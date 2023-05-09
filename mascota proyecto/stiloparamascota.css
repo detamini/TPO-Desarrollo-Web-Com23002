@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1rem;
+    height: 100%;
+     background-color: rgb(247, 235, 203); 
+}
+
+body,.contenedorsuperior,.contenedormedio,.contenedorinferior{
+    /* border: 2px orange solid; */
+    min-height: 40px;
+    margin: 0.5rem;
+    min-width: 400px;
+
+    font-family: 'Dancing Script', cursive, Arial, sans-serif;
+    background-color: rgb(247, 235, 203);
+
+}
+
+.contenedormedio>div {
+    /* border: 2px green solid; */
+    margin: 0.5rem;
+    min-width: 400px;
+}
+.header a img{
+    background-color:#9DC08B;
+    width: 10%;
+    display: inline-block;
+}
+
+.contenedorsuperior{
+    background-color:#9DC08B;
+    height: 20%;
+    vertical-align: top;
+}
+
+
+.headerNombre {
+    /* border: 2px purple solid; */
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    width: 60%;
+    background-color:#9DC08B;
+    left:25%;
+    top:-135px;
+    
+    
+}
+
+.headerMenu ul{
+    list-style: none;
+}
+nav{
+    top:60%;
+}
+
+
+
+.caja_foto img{
+    position: relative;
+    width: 80%;
+    height: 30%;
+    display: inline-block;
+    align-content: center;
+    margin: 2%;
+    padding:auto;
+    top: 20px;
+    background-color:#9DC08B;
+    border-radius:15px;
+    display: inline-block;
+    margin:40px;
+}  
+
+.menuhorizontal>li{
+    float: right;
+}
+
+
+.menuhorizontal li a {
+    background-color:#9DC08B;
+    color:black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.menuhorizontal li a:hover {
+    background-color:#434343;
+}
+
+.menuhorizontal li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.menuhorizontal li:hover > ul {
+    display:block;
+    background-color: #9DC08B;
+}
+
+.menuhorizontal li ul li {
+    position:relative;
+}
+.menuhorizontal li ul li:hover {
+    display: block;
+    background-color:#434343}
+
+
+.menuhorizontal li ul li ul {
+    right:-140px;
+    top:0px;
+}
+li{
+    display: block;
+    
+}
+.contenedorfotos{
+    
+    width: 20%;
+    height: 100%;
+    float: auto;
+    
+}
+.contenedormedio{
+    
+    display: inline-block;
+    width: 100%;
+    padding: 5%;
+    
+}
+
+
+
+.info{
+   
+    width: 80%;
+    font-size: 180%;
+    
+    
+    float: auto;
+    
+}
+body .contenedormedio {
+    display : flex;
+   flex-direction : row;
+   text-align: left;
+    
+ }
+
+.contenedorinferior{
+    background-color: #9DC08B;
+    text-align: center;
+}
